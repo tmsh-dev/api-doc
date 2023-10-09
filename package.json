@@ -1,0 +1,14 @@
+{
+  "name": "api-docs",
+  "version": "1.0.0",
+  "description": "Proyecto para generar documentación de API con Swagger",
+  "scripts": {
+    "bundle": "swagger-cli bundle -o api.json api.yaml",
+    "validate": "swagger-cli validate api.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apidevtools/swagger-cli": "^4.0.4"
+  }
+}

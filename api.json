@@ -1,0 +1,35 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API",
+    "version": "1.0.0",
+    "description": "API description"
+  },
+  "paths": {
+    "/example": {
+      "get": {
+        "summary": "Ejemplo de endpoint en otro archivo",
+        "responses": {
+          "200": {
+            "description": "Respuesta exitosa"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "username": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

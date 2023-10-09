@@ -1,0 +1,5 @@
+get:
+  summary: Ejemplo de endpoint en otro archivo
+  responses:
+    '200':
+      description: Respuesta exitosa

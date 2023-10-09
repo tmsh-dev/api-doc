@@ -1,0 +1,2 @@
+/example:
+  $ref: 'user/paths/user.yaml'
